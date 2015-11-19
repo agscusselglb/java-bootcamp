@@ -1,0 +1,7 @@
+package ej3;
+
+public final class Solouno {
+	private static final Solouno Hospital = new Solouno();
+	
+
+}

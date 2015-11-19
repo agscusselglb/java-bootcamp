@@ -1,0 +1,18 @@
+package ej3;
+//creo el patron Singleton
+
+public final class Hospital {
+	
+	private final Solouno hospital = new Solouno();
+	
+	private Solouno(String nombre, String tipo, double tamaño, int cant_medicos) {
+			super();
+			this.nombre = nombre;
+			this.tipo = tipo;
+			this.tamaño = tamaño;
+			this.cant_medicos = cant_medicos;
+		}
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package tres;
+
+public class Centro_medico {
+	String nombre;
+	String tipo;
+	double tamaño;
+	int cant_medicos;
+	
+	public Centro_medico(String nombre, String tipo, double tamaño, int cant_medicos) {
+		super();
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.tamaño = tamaño;
+		this.cant_medicos = cant_medicos;
+	}
+	
+	Centro_medico hospital = new Centro_medico ("Penna", "complejo", 10000.45 , 200);
+	
+	System.out.println(hospital);
+}
